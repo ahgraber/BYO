@@ -1,4 +1,4 @@
-linreg <- function(X, y, scaled=F, gradDesc=F, alpha=0.01, max_iters=1000) {
+linearReg <- function(X, y, scaled=F, gradDesc=F, alpha=0.01, max_iters=1000) {
   # Run linear regression on data
   # Return list of (list of beta coefficients, residuals, R^2)
   # Args:
